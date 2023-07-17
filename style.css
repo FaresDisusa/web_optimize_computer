@@ -33,15 +33,18 @@ body{
 article, section{
     font-size: 20px;
 }
-.diff_easy progress {
-    background-color: green; 
-}
-.risk_0 progress {
-    background-color: green; 
-}
-div.diff_med progress {
-    background-color: yellow; 
-}
-div.risk_mod progress {
-    background-color: yellow; 
-}
+.diff_easy .progress {
+    background-color: green;
+  }
+  
+  div.diff_med progress {
+    background-color: yellow; /* Remplacez la couleur par celle souhaitée */
+  }
+  
+  /* Couleur de la barre de progression "Risks: Moderate" */
+  div.risk_mod progress {
+    background-color: yellow; /* Remplacez la couleur par celle souhaitée */
+  }
+  .risk_0 .progress {
+    background-color: green;
+  }
